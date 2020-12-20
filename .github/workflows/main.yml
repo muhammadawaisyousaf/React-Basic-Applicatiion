@@ -31,11 +31,11 @@ jobs:
         run: npm install yarn
       
       - name: Installing Surge
-        run: npm install surge
+        run: npm install -g surge
       
       
       - name: Making build of App
         run: yarn build
       
       - name: Deploying build
-        run: surge ./ http://awais-projec-basic-react-app.surge.sh/ --token 755f0ea0eb224396667153cbb555ce36
+        run: surge ./build http://awais-projec-basic-react-app.surge.sh/ --token 755f0ea0eb224396667153cbb555ce36
