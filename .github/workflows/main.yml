@@ -28,10 +28,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing YARN
-        run: npm install --global yarn
+        run: npm install yarn
       
       - name: Installing Surge
-        run: npm install --global surge
+        run: npm install surge
       
       
       - name: Making build of App
