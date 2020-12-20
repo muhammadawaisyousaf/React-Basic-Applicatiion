@@ -28,4 +28,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing YARN
-        run: npm install -g yarn
+        run: npm install yarn
