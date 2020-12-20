@@ -31,7 +31,7 @@ jobs:
         run: npm install yarn
       
       - name: Installing Surge
-        run: npm install surge
+        run: npm install -g surge
       
       
       - name: Making build of App
